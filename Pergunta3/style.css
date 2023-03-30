@@ -1,0 +1,21 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+#menor,
+#maior,
+#media,
+#dias-maiores {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body {
+  background-color: #f7f7f7;
+}

@@ -1,4 +1,6 @@
-const string = "Target Sistemas";
+const inputString = document.getElementById("inputString");
+const btnInverter = document.getElementById("calcularBtn");
+const resultado = document.getElementById("resultado");
 
 function inverterCaracteresString(string) {
   const stringInvertida = string.split("");
@@ -13,4 +15,9 @@ function inverterCaracteresString(string) {
   }
   return stringInvertida.join("");
 }
-console.log(inverterCaracteresString(string));
+
+btnInverter.addEventListener("click", () => {
+  const string = inputString.value;
+  const stringInvertida = inverterCaracteresString(string);
+  resultado.textContent = stringInvertida;
+});
