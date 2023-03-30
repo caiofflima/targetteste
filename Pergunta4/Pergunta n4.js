@@ -12,7 +12,7 @@ function percentualEstado(dados, estado) {
       ? (somaEstado += element.valor)
       : (somaEstado = somaEstado);
   });
-  console.log("Soma total:", soma);
+  console.log("Valor total:", soma);
   console.log("Percentual do estado", estado, ":", (somaEstado / soma) * 100);
 }
 
