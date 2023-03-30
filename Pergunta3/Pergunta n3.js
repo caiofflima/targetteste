@@ -1,4 +1,4 @@
-var dados = require("fs").readFileSync("dados.json", "utf8");
+var dados = require("fs").readFileSync("./Pergunta3/dados.json", "utf8");
 dados = JSON.parse(dados);
 
 function menorValor(dados) {
